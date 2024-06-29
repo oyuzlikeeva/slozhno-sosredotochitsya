@@ -8,6 +8,7 @@
   font-size: var(--common-font-size);
   font-weight: var(--common-font-weight);
   line-height: var(--common-font-lh);
+  background-attachment: fixed
 }
 
 
@@ -165,9 +166,6 @@
     flex-direction: column;
 
     width: fit-content;
-  }
-
-  .header__theme-menu-list {
     margin-right: 20px;
   }
 }
@@ -279,7 +277,7 @@
 }
 
 @media (width < 1024px) {
-  .content{
+  .content {
     gap: 22px
   }
   .content__container {
