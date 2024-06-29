@@ -25,6 +25,7 @@
 
   .header {
     background: url(../images/cover-image-dark.png) no-repeat;
+    background-size: cover;
   }
 }
 
@@ -37,6 +38,7 @@
 
   .header {
     background: url(../images/cover-image-light.png) no-repeat;
+    background-size: cover;
   }
 
   .header__theme-menu-button_active {

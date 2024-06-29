@@ -11,5 +11,6 @@
 
   .header {
     background: url(../images/cover-image-dark.png) no-repeat;
+    background-size: cover;
   }
 }

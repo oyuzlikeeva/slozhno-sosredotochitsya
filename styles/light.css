@@ -12,6 +12,7 @@
 
   .header {
     background: url(../images/cover-image-light.png) no-repeat;
+    background-size: cover;
   }
 
   .header__theme-menu-button_active {
