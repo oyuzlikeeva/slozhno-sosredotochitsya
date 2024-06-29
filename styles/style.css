@@ -380,6 +380,8 @@
 
 @media (width <= 768px) {
   .images-section__container {
+    gap: 10px;
+    margin: 12px 0 0;
     grid-template-columns: 1fr;
     grid-template-rows: auto;
     grid-template-areas:
@@ -392,26 +394,18 @@
 
   .image-sunset {
     width: 100%;
-    aspect-ratio: 2/1;
+    aspect-ratio: 5/2;
   }
   
-  .image-ice-cream {
-    width: 100%;
-    aspect-ratio: 1/1;
-  }
-  
+  .image-ice-cream,
   .image-books {
     width: 100%;
     aspect-ratio: 1/1;
   }
   
-  .image-tape {
-    width: 100%;
-    aspect-ratio: 2/1;
-  }
-  
+  .image-tape,
   .image-street {
     width: 100%;
-    aspect-ratio: 2/1;
+    aspect-ratio: 3/2;
   }
 }
