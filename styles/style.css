@@ -239,7 +239,7 @@
 
 .content__section {
   display: grid;
-  grid-template-columns: repeat(3, clamp(200px, 32%, 315px));
+  grid-template-columns: repeat(3, 32%);
   gap: 16px 2%;
   margin-bottom: 8.5%;
 }
@@ -253,6 +253,7 @@
 }
 
 .paragraph-block {
+  width: 100%;
   display: flex;
   flex-direction: column;
   gap: 8px;
@@ -271,6 +272,10 @@
   grid-template-areas: 
   'contentTitle . .' 
   'content content content';
+}
+
+.paragraph-block>.content__subtitle:nth-child(2) {
+  margin-top: 14px;
 }
 
 .content__title {
