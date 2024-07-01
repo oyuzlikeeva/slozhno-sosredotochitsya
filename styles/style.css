@@ -144,6 +144,7 @@
 .footer {
   position: relative;
   height: 100dvh;
+  margin-top: 11%;
 
   display: flex;
   justify-content: space-around;
@@ -152,7 +153,7 @@
 
 @media (width < 1023px) {
   .header {
-    min-height: 1024px;
+    max-height: 1024px;
     grid-template-rows: 12% 23% 24% 26%;
     grid-template-areas: 
     '. . . lamp'
@@ -174,7 +175,7 @@
   }
 }
 
-@media (width <= 768px) {
+@media (width < 768px) {
   .header {
     gap: 0%;
     max-height: 668px;
@@ -225,10 +226,6 @@
 
   .header__theme-menu-list {
     margin-right: 10px;
-  }
-
-  .footer {
-    margin-top: 11%;
   }
 }
 
@@ -292,8 +289,13 @@
   .content {
     gap: 22px
   }
+
   .content__container {
     margin-top: 8%;
+  }
+
+  .paragraph-block>.content__subtitle:nth-child(2) {
+    margin-top: 16px;
   }
 
   .content__section {
@@ -395,7 +397,7 @@
   background-size: cover;
 }
 
-@media (width <= 768px) {
+@media (width < 768px) {
   .images-section__container {
     gap: 10px;
     margin: 12px 0 0;
